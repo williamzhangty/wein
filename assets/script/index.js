@@ -32,7 +32,9 @@ document.getElementById('formLogin').addEventListener('submit', function(event) 
             pWrongInfo.innerHTML = 'Incorrect username or password.';
             console.log('111')
             event.preventDefault();
-        } 
+        } else {
+            window.location.href = 'main.html';
+        }
 });
 
 chkShowpsw.addEventListener('change', ()=>{
