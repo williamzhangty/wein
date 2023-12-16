@@ -1,0 +1,138 @@
+@charset "utf-8";
+
+:root {
+    --app-background-color: rgb(37, 37, 38);
+    --app-border-color: #3c3a3a;
+    --ap-background-color-other: rgb(86, 86, 86);
+    --app-facebook-Color:#1877F2;
+    --app-hover-color: #4b6ea9;
+    
+}
+
+html, body {
+    height: 100%; 
+    margin: 0; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 50px;
+    width: 80vw;
+    height: 60vh;
+}
+
+.dvLeftContainer {
+    background-color: #fff;
+}
+
+.dvLeft {
+    background-image: url('../img/sharing.jpeg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+}
+
+.dvRight {
+    padding: 50px 10;
+}
+
+.dvRight button {
+    background-color: #2e89ff; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 50px;
+    cursor: pointer;
+    float: right;
+    width: 150px;
+}
+
+.pWrongInfo {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+    height: 20px;
+}
+
+.dvRight button:hover {
+    background-color: #0773ff;
+}
+
+.title {
+    margin: 20px 0px;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.title span {
+    color: var(--app-facebook-Color)
+}
+
+.decribe {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+#chkRememberMe {
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+label {
+    white-space: nowrap;
+}
+
+form {
+    width: 350px;
+}
+
+.form-footer a, a:visited{
+    color: black;
+}
+
+form input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#chkShowpsw {
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.form-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#inputPsw {
+    margin-bottom: 0;
+    
+}
+/* white-space: nowrap;
+overflow: hidden; */
+
+#create-profile {
+    background-color: #fff;
+    color: #0773ff;
+    border: 1px solid #0773ff;
+}
+
+#create-profile:hover {
+    background-color: #eee;
+  
+}

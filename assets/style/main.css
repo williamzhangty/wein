@@ -1,0 +1,511 @@
+@charset "utf-8";
+
+*{
+  margin:0;
+  padding:0;
+  outline: none;
+  border-style: none;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ececec; /* Dark background */
+  color: #e4e6eb; /* Light text */
+}
+
+.container {
+    width: 90%;
+    margin-inline:auto;
+}
+
+.column-1 {
+  background-color: white;
+  width: 22.5%;
+  height: 500px;
+  margin: 30px 15px;
+  border-radius: 8px;
+}
+
+.column-2 {
+  margin: 30px 15px;
+  width: 55%;
+}
+
+.column-3 {
+  background-color: #fff;
+  width: 22.5%;
+  height: 100%;
+  margin: 30px 15px;
+  border-radius: 5px;
+}
+
+.add-friend {
+  border-top: 1px solid #cecece;
+}
+
+.row-3-1 {
+  height: 75px;
+  color: #000;
+  text-align: center;
+  line-height: 74px;
+  border-bottom: 1px solid #ececec;;
+}
+
+.dashboard {
+  
+  display: flex;
+  
+}
+
+header {
+    background-color: #fff;
+    overflow: hidden;
+}
+
+footer {
+  background-color: #fff;
+  overflow: hidden;
+}
+
+h1 {
+    font-size: 35px;
+    font-weight: 600;
+    color:#7541d7;
+    letter-spacing: 0.2px;
+    line-height: 60px;
+    margin-left: 15px;
+}
+
+.flexbox {
+    display: flex;
+}
+
+header div {
+    width:30%;
+}
+
+nav {
+    width: 72%;
+}
+
+header .tail {
+  width:20%
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    line-height: 80px;
+}
+
+nav {
+    text-align: 60px;
+}
+
+nav ul li a:hover {
+    color:#00f3b6;
+}
+
+nav ul li a {
+    color:#595959;
+    padding: 0 5px;
+    font-size: 18px;
+    text-decoration: none;
+    transition: color 0.25s;
+    display: inline;
+}
+
+nav ul li + li {
+    margin-left: 20px;
+}
+
+i {
+  color: #8a8a8a;
+}
+
+.row-1 {
+  height: 280px;
+  text-align: center;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  background-color: #e4e6eb;
+  margin:30px auto;
+  margin-bottom:15px;
+  border-radius: 50%;
+  background: url('../img/william.jpg') no-repeat center center / cover;
+}
+
+.name {
+  color: #000;
+  margin: 0px;
+  font-size: 20px;
+  font-weight:800;
+}
+
+.name-1 {
+  color: #000;
+  margin: 0px;
+  font-size: 15px;
+  font-weight:800;
+  padding: 0px;
+  line-height: 28px;
+}
+
+.title {
+  color: #8a8a8a;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  font-size: 12px;
+}
+
+.title-1 {
+  color: #8a8a8a;
+  margin: 0;
+  line-height: 10px;
+  font-size: 10px;
+}
+
+.ellipsis {
+  font-size: 20px;
+  text-align: right;
+  margin: 0px;
+  line-height: 10px;
+  cursor: pointer; 
+}
+
+.heart {
+  line-height: 10px;
+  margin: 8px;
+  color: #8a8a8a;
+  font-size: 13px;
+}
+
+.link {
+  color: #949494;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+a {
+  text-decoration: none;
+  color: #949494;
+}
+
+.row-2 {
+  height: 70px;
+  display: flex;
+  text-align: center;
+}
+
+.number {
+  color: #000;
+  font-size: 18px;
+  font-weight:800;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.view {
+  margin: 0;
+  color: #949494;
+  font-size: 12px;
+}
+
+.connections {
+  width: 50%;
+  border-top: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
+  border-right: 1px solid #ececec;
+}
+
+.views {
+  width: 50%;
+  border-top: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
+}
+
+.row-3 {
+  height: 130px;
+  text-align: center;
+}
+
+.premium {
+  display: inline-block; 
+  color: #949494;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  font-size: 12px;
+}
+
+.button {
+  display: inline-block; /* This makes the div behave like an inline element */
+  /* Additional styling to make it look like a button */
+  padding: 10px 20px; /* Example padding */
+  background-color: #7cb5ff; /* Example background color */
+  color: white; /* Example text color */
+  text-transform: uppercase; /* Example text transformation */
+  cursor: pointer; /* Changes the cursor to indicate it's clickable */
+  border: none; /* No border by default, but you can add if you like */
+  border-radius: 50px; /* Optional: rounds the corners of the button */
+  font-size: 11px;
+}
+
+.button:hover {
+  background-color: #2e89ff;
+}
+
+#new-post {
+  background-color: #fff; 
+  border: none; 
+  padding-top: 20px;
+  padding-bottom: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0px auto;
+  border-radius: 5px; 
+   
+}
+#posts {
+  margin: 20px auto;
+}
+
+#new-post textarea {
+  width: 100%;
+  background-color: #fff; 
+  font-size: 15px;
+  resize: none;
+  margin-bottom: 10px;
+  color: #333; 
+  border-bottom: 1px solid #ececec;
+}
+
+.custom-file-upload {
+  display: inline-block;
+  padding: 6px 12px; 
+  cursor: pointer;
+  font-size: 20px;
+  width: 30px; 
+  height: 24px; 
+  border-radius: 5px; 
+}
+
+.custom-file-upload:active,
+.custom-file-upload:focus {
+  outline: none;
+  border: none;
+}
+
+#file-name-display {
+  position: relative; 
+  top: -5px; 
+  left: 5px;
+  font-size: 15px;
+}
+
+
+#new-post input[type="file"] {
+  color: #e4e6eb; 
+  color: transparent;
+  display: none;
+}
+
+#new-post button {
+  background-color: #2e89ff; 
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 50px;
+  cursor: pointer;
+  float: right;
+}
+
+#new-post button:hover {
+  background-color: #0773ff;
+}
+
+.post {
+  background-color: #fff;
+  margin-top: 20px;
+  padding: 20px 30px;
+  border-radius: 5px;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  
+  justify-content: space-between;
+}
+
+.post-header img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.post-header .user-name {
+  font-weight: bold;
+  font-size: 14px;
+  color: #111;
+  line-height: 40px;
+}
+
+.friend {
+  margin:10px 15px;
+  margin-right: 0px;
+}
+
+.fa-circle-plus {
+  font-size: 25px;
+  margin-right: 15px;
+  color:#cecece;
+  cursor: pointer;
+}
+
+.fa-heart, .fa-comment, .fa-share-nodes {
+  cursor: pointer;
+}
+
+.post-header .post-date {
+  font-size: 12px;
+  color: #60646b;
+}
+
+.post-content p {
+  color: #111;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.post-content img {
+  margin-top: 10px;
+  max-width: 100%;
+}
+
+p {
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+
+#icon {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #fff;
+  cursor: pointer;
+  background: url('../img/william.jpg') no-repeat center center / cover;
+}
+
+.tail {
+  display: flex; /* Use Flexbox */
+  justify-content: center; 
+  align-items: center;
+  position: relative;
+}
+
+.copyright {
+  display: flex; /* Use Flexbox */
+  justify-content: center; 
+  align-items: center;
+  color: #595959;
+  margin-bottom: 50px;
+}
+
+.about-us {
+  display: flex; /* Use Flexbox */
+  width: 100%;
+  justify-content: center; 
+  align-items: center;
+  color: #595959;
+  margin-bottom: 0px;
+}
+
+.logo {
+  display: flex; /* Use Flexbox */
+  align-items: center;
+}
+
+input[type="text"] {
+  width: 200px;
+  height: 40px;
+  padding: 0 40px 0 40px;
+  margin: 10px;
+  /*
+  border: 1px solid rgb(255 255 255/ 0.15);*/
+  background:rgb(0 0 0/ 0.1) url(../img/search-26242.png) no-repeat 13px 13px;
+  background-size: 16px 16px;
+  font-size: 18px;
+  color: #000;
+  transition: all 0.15s ease-in-out;
+  border-radius: 50px
+}
+
+input[type="text"]:focus {
+  border: 1px solid #5e51da;
+}
+
+input[type="text"]::placeholder {
+  color: #cccccc;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 60px auto;
+  padding: 10px;
+  border: 1px solid #888;
+  width: 300px;
+  color: #111;
+  position: absolute;
+  right: 20%;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#modal-info {
+  line-height: 25px;
+  margin-top: 10px;
+}
+
+#usersContainer {
+  background-color: #fff;
+  border-bottom-left-radius: 5px; /* Radius of the bottom-left corner */
+  border-bottom-right-radius: 5px;
+}
+

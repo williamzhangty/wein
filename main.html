@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wein</title>
+    <link rel="stylesheet" href="./assets/style/main.css" media="all">
+    <script src="https://kit.fontawesome.com/3f60ee6457.js" crossorigin="anonymous"></script>
+    <script src="./assets/script/main.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="container flexbox">
+          <div class="logo">
+              <h1>in</h1>
+              <div class="search">
+                <form>
+                    <input type="text" clas="user" placeholder="Search">
+              </form>
+            </div>
+          </div>
+          <nav>
+              <ul>
+                  <li><a href="#"><i class="fa-solid fa-house"></i> Home</a></li>
+                  <li><a href="#"><i class="fa-solid fa-user-group"></i> Netwrok</a></li>
+                  <li><a href="#"><i class="fa-regular fa-comment"></i> Messaging</a></li>
+                  <li><a href="#"><i class="fa-regular fa-bell"></i> Notification</a></li> 
+                  <li><a href="#"><i class="fa-solid fa-suitcase"></i> Jobs</a></li> 
+                  <li><a href="#"><i class="fa-solid fa-list-check"></i> Work</a></li> 
+              </ul>
+          </nav>
+          <div class="tail">
+              <div id="icon"></div>
+          </div>
+      </div>
+  </header>
+    <main>
+      <div class="container dashboard">
+        <div class="column-1">
+          <div class="row-1">
+            <div class="avatar"></div>
+            <p class="name">William Zhang</p>
+            <p class="title">Software Developer</p>
+            <p class="link"><a href="#"><i class="fa-solid fa-link"></i> https://github.com/williamzhangty</a></p>
+          </div>
+          <div class="row-2">
+            <div class="connections">
+              <p class="number">678</p>
+              <p class="view">Connections</p>
+            </div>
+            <div class="views">
+              <p class="number">1298</p>
+              <p class="view">Views</p>
+            </div>
+          </div>
+          <div class="row-3">
+            <div>
+              <p class="premium">Free Access exclusive tools & insights</p>
+            </div>
+            <div class="button">UPDATE TO PREMIUM</div>
+          </div>
+        </div>
+        <div class="column-2">
+          <div id="new-post">
+            <textarea placeholder="What's new, William?" rows=2></textarea>
+            <label for="file-upload" class="custom-file-upload" id="file-name"><i class="fa-solid fa-camera"></i></label>
+            <input type="file" id="file-upload" />
+            <span id="file-name-display"></span>
+            <button id="button">Post</button>
+          </div>
+          <div id="posts">
+            <div class="post">
+              <div class="post-header">
+                <div class="user-info flexbox">
+                  <img src="./assets/img/p2.jpeg" alt="Profile Picture">
+                  <div class="user-name"><p class="name-1">John Smith</p><p class="title-1">Linux Engineer</p></div>
+                </div>
+                <div class="post-date"><p class="ellipsis"><i class="fa-solid fa-ellipsis"></i></p><p class="title">30 min ago</p></div>
+              </div>
+              <div class="post-content">
+                <p class="comment">The water is beautiful!</p>
+                <img src="./assets/img/s2.webp" alt="Post Image">
+              </div>
+              <div>
+                <p class="heart"><i class="fa-solid fa-heart"></i> 25&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-regular fa-comment"></i>
+                  12&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-share-nodes"></i> Share</p>
+              </div>
+          </div>
+          <div class="post">
+            <div class="post-header">
+              <div class="user-info flexbox">
+                <img src="./assets/img/p1.jpeg" alt="Profile Picture">
+                <div class="user-name"><p class="name-1">Peter Johnson</p><p class="title-1">PHP Developer</p></div>
+              </div>
+              <div class="post-date"><p class="ellipsis"><i class="fa-solid fa-ellipsis"></i></p><p class="title">2 hr ago</p></div>
+            </div>
+            <div class="post-content">
+              <p class="comment">The mountain is high!</p>
+              <img src="./assets/img/s2.jpeg" alt="Post Image">
+            </div>
+            <div>
+              <p class="heart"><i class="fa-solid fa-heart"></i> 45&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-regular fa-comment"></i>
+                34&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-share-nodes"></i> Share</p>
+            </div>
+
+          </div></div>
+        </div>
+        <div class="column-3">
+          <div class="row-3-1">
+            <p class="name">people you may know</p>
+          </div>
+          <div id="usersContainer">
+      
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+          <nav class="about-us">
+              <ul>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Customer Service</a></li>
+                  <li><a href="#">Contact Us</a></li>
+              </ul>
+          </nav>
+          <div class="copyright">
+            @Zhixin Liu, Tieyao Zhang
+          </div>
+      </div>
+    </footer>
+  </body>
+</html>
