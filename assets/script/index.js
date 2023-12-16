@@ -28,11 +28,11 @@ const pWrongInfo = document.querySelector('.pWrongInfo');
 
 document.getElementById('formLogin').addEventListener('submit', function(event) {
     if(!validateUser(inputUserName.value, inputPsw.value))
-    {
-        pWrongInfo.innerHTML = 'Incorrect username or password.';
-        console.log('111')
-        event.preventDefault();
-    }
+        {
+            pWrongInfo.innerHTML = 'Incorrect username or password.';
+            console.log('111')
+            event.preventDefault();
+        } 
 });
 
 chkShowpsw.addEventListener('change', ()=>{
